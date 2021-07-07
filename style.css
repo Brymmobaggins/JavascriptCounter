@@ -10,7 +10,7 @@ body {
 h1 {
   color: #fff;
   text-align: center;
-  padding-top: 25px;
+  padding-top: 40px;
 }
 .container {
   background-image: url(img/woodenbackground.jpg);
@@ -27,11 +27,21 @@ h1 {
   border: 3px solid #ffff;
   border-radius: 5px;
   box-shadow: 3px 28px 21px -2px rgba(45, 49, 38, 0.88);
-  height: 500px;
-  width: 55%;
+  height: 520px;
+  width: 75%;
 }
 .btn {
   margin-top: 250px;
+}
+#number{
+  color:green;
+  font-size: 200px;
+  font-weight:900;
+   width: 100%; */
+  height: 100px;
+  /* line-height: 10px; */
+  background-color: transparent;
+
 }
 button {
   background-color: #184e77;
@@ -41,14 +51,13 @@ button {
   color: #fff;
   font-size: 23px;
   padding: 12px 17px;
-  letter-spacing: 1px;
+  letter-spacing: 0.5px;
   transition: 1ms;
 }
-button:hover,
-:focus {
+button:hover
+ {
   border: 1px solid #aaa;
   cursor: pointer;
-  /* opacity: 0.7; */
 }
 
 .add {

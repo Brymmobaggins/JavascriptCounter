@@ -4,6 +4,13 @@ let decrease = document.getElementById('decrement')
 let int = document.getElementById('number');
 let integer = 0;
 
-addEventListener('click', function () {
+add.addEventListener('click', function () {
     integer += 1;
+    int.innerHTML = integer;
+})
+
+decrease.addEventListener('click',function () {
+    integer -= 1;
+    int.innerHTML = integer;
+
 })
