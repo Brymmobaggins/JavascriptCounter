@@ -13,7 +13,7 @@ h1 {
   padding-top: 40px;
 }
 .container {
-  background-image: url(img/woodenbackground.jpg);
+  background-image: url(./img/woodenbackground.jpg);
   background-size: cover;
   display: flex;
   align-items: center;
@@ -31,17 +31,16 @@ h1 {
   width: 75%;
 }
 .btn {
-  margin-top: 250px;
+  margin-top: 150px;
 }
-#number{
-  color:green;
+#number {
+  color: green;
   font-size: 200px;
-  font-weight:900;
-   width: 100%; */
+  font-weight: 900;
+  width: 100%;
   height: 100px;
   /* line-height: 10px; */
   background-color: transparent;
-
 }
 button {
   background-color: #184e77;
@@ -54,8 +53,7 @@ button {
   letter-spacing: 0.5px;
   transition: 1ms;
 }
-button:hover
- {
+button:hover {
   border: 1px solid #aaa;
   cursor: pointer;
 }
