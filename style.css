@@ -6,6 +6,7 @@
 body {
   background-color: black;
   font-size: 26px;
+  height: 100vh;
 }
 h1 {
   color: #fff;
