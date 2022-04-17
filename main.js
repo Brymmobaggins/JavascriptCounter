@@ -1,30 +1,30 @@
-let add = document.getElementById('increment')
-let decrease = document.getElementById('decrement')
-let int = document.getElementById('number');
+const increaseButton = document.querySelector('.increase')
+const decreaseButton = document.querySelector('.decrease')
+const result = document.querySelector('.result')
+const resetButton = document.querySelector('.reset')
 
-let count = 0;
 
-add.addEventListener('click', function () {
-    count++;
-    int.innerHTML = count;
-    // if count is equal to 50
-    if (count === 50) {
-        count = 0;
-    } else {
-
-    }
-})
-decrease.addEventListener('click', function () {
-    count--;
-    int.innerHTML = count;
-    // if count is less than 1 or is equals to 0
-    if (count <= 1) {
-        count = 50;
-    } else if (count === 0) {
-        count = 50
-    } else {
-    }
+increaseButton.addEventListener("click", function () {
+    result.textContent++
+    resultColor()
 
 })
+decreaseButton.addEventListener('click', function () {
+    result.textContent--
+    resultColor()
+})
+resetButton.addEventListener('click', function () {
+    result.textContent = 0
+    resultColor()
+})
 
+function resultColor() {
+    if (result.textContent < 0) {
+        result.style.color = "red"
 
+    } else if (result.textContent > 0) {
+        result.style.color = "green"
+    } else {
+        result.style.color = "#889aad"
+    }
+}

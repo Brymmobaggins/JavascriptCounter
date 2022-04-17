@@ -4,60 +4,54 @@
   box-sizing: border-box;
 }
 body {
-  background-color: black;
-  font-size: 26px;
   height: 100vh;
-}
-h1 {
-  color: #fff;
-  text-align: center;
-  padding-top: 40px;
-}
-.container {
-  background-image: url(./img/woodenbackground.jpg);
-  background-size: cover;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 20px auto;
-  width: 50%;
-  height: 620px;
+  font-family: "tahoma";
+  background-color: rgb(49, 35, 35);
 }
-.counterContainer {
-  text-align: center;
-  border: 3px solid #ffff;
-  border-radius: 5px;
-  box-shadow: 3px 28px 21px -2px rgba(45, 49, 38, 0.88);
-  height: 520px;
-  width: 75%;
+.container {
+  width: 250px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 10px;
+  gap: 20px;
+box-shadow: 0 0 5px rgb(255, 255, 255)}
+p,
+h4 {
+  color: #889aad;
 }
-.btn {
-  margin-top: 150px;
-}
-#number {
-  color: green;
-  font-size: 200px;
-  font-weight: 900;
-  width: 100%;
-  height: 100px;
-  background-color: transparent;
-}
-button {
-  background-color: #184e77;
-  box-shadow: -3px 5px 15px 0px rgba(45, 49, 38, 0.88);
-  border: none;
-  border-radius: 5px;
-  color: #fff;
-  font-size: 23px;
-  padding: 12px 17px;
-  letter-spacing: 0.5px;
-  transition: 1ms;
-}
-button:hover {
-  border: 1px solid #aaaa;
-  cursor: pointer;
+.result {
+  font-size: 30px;
+  font-weight: 500;
 }
 
-.add {
-  margin-top: 15px;
+.btn {
+  text-transform: capitalize;
+  transition: all 0.3s;
+  outline: none;
+  border: none;
+  color:white;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 13px;
+  margin-right: 5px;
+  border-radius: 4px;
+}
+.btn:last-child {
+  margin: 0;
+}
+.decrease {
+  background-color: #dc143c;
+}
+.increase {
+  background: #008000;
+}
+.reset {
+  background-color: #f0f8ff;
+  color:#1b1616;
 }
