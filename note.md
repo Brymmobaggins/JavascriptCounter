@@ -8,7 +8,7 @@
 - CSS flexbox
 - JavaScript
 
-[Live demo](https://brymmobaggins.github.io/JavascriptCounter/)
+[Live demo](https://brymmobaggins.github.io/counter-app/)
 
 ### concept
 
