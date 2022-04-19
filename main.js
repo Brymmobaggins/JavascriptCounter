@@ -25,6 +25,6 @@ function resultColor() {
     } else if (result.textContent > 0) {
         result.style.color = "green"
     } else {
-        result.style.color = "#889aad"
+        result.style.color = "faf9f9"
     }
 }

@@ -9,7 +9,7 @@ body {
   align-items: center;
   justify-content: center;
   font-family: "tahoma";
-  background-color: rgb(49, 35, 35);
+  background-color: #89b0ae;
 }
 .container {
   width: 250px;
@@ -20,10 +20,11 @@ body {
   flex-direction: column;
   border-radius: 10px;
   gap: 20px;
-box-shadow: 0 0 5px rgb(255, 255, 255)}
+  box-shadow: 0 0 5px rgb(255, 255, 255);
+}
 p,
 h4 {
-  color: #889aad;
+  color: #faf9f9;
 }
 .result {
   font-size: 30px;
@@ -35,7 +36,7 @@ h4 {
   transition: all 0.3s;
   outline: none;
   border: none;
-  color:white;
+  color: white;
   padding: 5px 10px;
   cursor: pointer;
   font-size: 13px;
@@ -53,5 +54,5 @@ h4 {
 }
 .reset {
   background-color: #f0f8ff;
-  color:#1b1616;
+  color: #1b1616;
 }
